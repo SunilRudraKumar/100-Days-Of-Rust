@@ -1,27 +1,16 @@
 use std::io;
 
 fn main() {
+    let mut age_input = String::new();
+    println!("Please enter your age:");
+    io::stdin()
+        .read_line(&mut age_input)
+        .expect("Failed to read line");
 
-    loop {
+    let age: u32 = age_input.trim().parse().expect("please type a number");
 
-    println!("Please input your age in years!");
+    println!("Your age: {}", age);
 
-    let mut guess = String::new();
-
-    
-        io::stdin()
-            .read_line(&mut guess)
-            .expect("Could not read age. Make you an integer is used.");
-        
-        let guess: u32 =  match guess.trim().parse() {
-            Ok(num) => num, 
-            Err(_) => continue,
-        };
-
-        let age: u32 = guess * 365;
-
-        println!("You are roughly {age} days old!")
-
-    }
-
+    let age_in_days = age * 365;
+    println!("Age in Days {}", age_in_days);
 }
