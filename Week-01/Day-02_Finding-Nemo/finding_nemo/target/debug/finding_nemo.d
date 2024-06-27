@@ -1,0 +1,1 @@
+/Volumes/Sunil\ External\ Disk/Git\ Projects/100-days-of-rust/Week-01/Day-02_Finding-Nemo/finding_nemo/target/debug/finding_nemo: /Volumes/Sunil\ External\ Disk/Git\ Projects/100-days-of-rust/Week-01/Day-02_Finding-Nemo/finding_nemo/src/main.rs
