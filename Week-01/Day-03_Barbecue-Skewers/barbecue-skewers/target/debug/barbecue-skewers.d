@@ -1,0 +1,1 @@
+/Volumes/ExternalDisk/Git\ Projects/100-days-of-rust/Week-01/Day-03_Barbecue-Skewers/barbecue-skewers/target/debug/barbecue-skewers: /Volumes/ExternalDisk/Git\ Projects/100-days-of-rust/Week-01/Day-03_Barbecue-Skewers/barbecue-skewers/src/main.rs
